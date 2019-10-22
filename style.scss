@@ -1,0 +1,100 @@
+body {
+    height: 100vh !important;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    position: relative;
+
+    * {
+        font-family: 'Megrim', cursive !important;
+        letter-spacing: 0.8px;
+    }
+
+    .sec1 {
+        position: absolute;
+        top: 42%;
+        left: 50%;
+        user-select: none;
+        transform: translate(-50%, -50%);
+        color: rgba(255, 255, 255, .68);
+
+        @media (max-width: 767px) {
+            top: 55%;
+        }
+
+        #countdown,
+        #days,
+        #hours,
+        #minutes,
+        #seconds,
+        #wish {
+            transition: all 1.5s ease-in-out !important;
+        }
+
+        #days {
+            color: rgba(252, 178, 96, 0.8);
+        }
+
+        #hours {
+            color: rgba(253, 238, 152, 0.8);
+        }
+
+        #minutes {
+            color: rgba(252, 178, 96, 0.8);
+        }
+
+        #seconds {
+            color: rgba(253, 238, 152, 0.8);
+        }
+
+        h1 {
+            font-size: 52px !important;
+            padding: 20px;
+            color: rgba(204, 192, 211, 0.932);
+            opacity: 1 !important;
+            font-weight: bold;
+
+            @media (max-width: 767px) {
+                font-size: 36px !important;
+            }
+        }
+
+        h2 {
+            padding-top: 50px;
+            font-size: 70px !important;
+            color: rgba(255, 255, 255, .8);
+
+            @media (max-width: 767px) {
+                font-size: 52px !important;
+                padding-top: 25px;
+            }
+        }
+
+        #wish {
+            @media(min-width: 768px) {
+                font-size: 18px;
+                padding-top: 60px;
+            }
+        }
+
+        #expired {
+            color: rgb(97, 82, 82);
+            font-size: 42px !important;
+            font-weight: bold;
+            padding-top: 80px;
+            font-style: oblique;
+
+            @media (max-width: 767px) {
+                padding-top: 40px;
+            }
+        }
+    }
+
+    .sec2,
+    .inverted {
+        margin-top: -5px;
+        background: #0c091d !important;
+        color: rgba(204, 192, 211, 0.932);
+    }
+}
