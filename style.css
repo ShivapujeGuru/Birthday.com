@@ -1,5 +1,5 @@
 body {
-  height: 100vh !important;
+  height: 90% !important;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ body * {
 }
 body .sec1 {
   position: absolute;
-  top: 42%;
+  top: 50%;
   left: 50%;
   user-select: none;
   transform: translate(-50%, -50%);
@@ -87,8 +87,17 @@ body .sec1 #expired {
 body .sec2,
 body .inverted {
   margin-top: -5px;
-  background: #0c091d !important;
-  color: rgba(204, 192, 211, 0.932);
+}
+body .sec2 p,
+body .inverted p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+  color: #0c091d;
+}
+@media (max-width: 425px) {
+  body .sec2 p,
+body .inverted p {
+    font-size: 12px !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
