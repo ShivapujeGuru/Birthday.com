@@ -1,5 +1,5 @@
 body {
-  height: 90% !important;
+  height: 100% !important;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -17,11 +17,6 @@ body .sec1 {
   user-select: none;
   transform: translate(-50%, -50%);
   color: rgba(255, 255, 255, 0.68);
-}
-@media (max-width: 767px) {
-  body .sec1 {
-    top: 70%;
-  }
 }
 body .sec1 #countdown,
 body .sec1 #days,
@@ -52,7 +47,7 @@ body .sec1 h1 {
 }
 @media (max-width: 767px) {
   body .sec1 h1 {
-    font-size: 36px !important;
+    font-size: 32px !important;
   }
 }
 body .sec1 h2 {
@@ -62,7 +57,7 @@ body .sec1 h2 {
 }
 @media (max-width: 767px) {
   body .sec1 h2 {
-    font-size: 52px !important;
+    font-size: 41px !important;
     padding-top: 25px;
   }
 }
