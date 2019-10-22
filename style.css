@@ -20,7 +20,7 @@ body .sec1 {
 }
 @media (max-width: 767px) {
   body .sec1 {
-    top: 55%;
+    top: 70%;
   }
 }
 body .sec1 #countdown,
